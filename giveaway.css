@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.img{
+    display: flex;
+    background-color: #E2F2EF;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+   
+
+}
+
+
+ .imgrt{
+        height: 550px;
+        width: 550px;
+        margin: 50px 0px 0px 40px;
+       
+         img{
+             height: 550px;
+        width: 550px;
+        
+         }
+    }
+
+    .old-phone{
+        
+        width: 50%;
+        h1{
+           padding-top: 150px;
+            color: #0095FF;
+
+        }
+        h3{
+            padding-top: 5px;
+        }
+        p{
+            padding-top: 20px;
+            padding-right: 70px;
+            line-height: 22px;
+            
+            font-size: 17px;
+        }
+    }
+
+    .clock{
+        display: flex;
+        gap: 50px;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+    .my-box{
+        background-color: black;
+        width: 70px;
+        color: blue;
+        height: 70px;
+        text-align: center;
+        position: relative;
+        padding: 8px 12px;
+        border-radius: 4px;
+        h1{
+            position: absolute;
+            top: -135px;
+            left: 36px;
+        }
+       
+        p{
+            color: white;
+            position: absolute;
+            top: 35px;
+            left: 25px;
+            text-transform: uppercase;
+        }
+    }
+    
+    .box{
+        background-color: black;
+        width: 70px;
+        color: blue;
+        height: 70px;
+        text-align: center;
+        position: relative;
+        padding: 8px 12px;
+        position: relative;
+        border-radius: 4px;
+        h1{
+            position: absolute;
+            top: -135px;
+            left: 30px;
+
+        }
+        p{
+             color: white;
+            position: absolute;
+            top: 35px;
+            left: 20px;
+            text-transform: uppercase;
+        }
+    }
+    .my{
+          background-color: black;
+        width: 70px;
+        color: blue;
+        height: 70px;
+        text-align: center;
+        position: relative;
+        padding: 8px 12px;
+        position: relative;
+        border-radius: 4px;
+
+        h1{
+            position: absolute;
+            top: -135px;
+            left: 32px;
+        }
+
+        p{
+             color: white;
+            position: absolute;
+            top: 35px;
+            left: 26px;
+            text-transform: uppercase; 
+        }
+    }
+    .mytbox{
+         background-color: black;
+        width: 70px;
+        color: blue;
+        height: 70px;
+        text-align: center;
+        position: relative;
+        padding: 8px 12px;
+        position: relative;
+        border-radius: 4px;
+
+        h1{
+            position: absolute;
+            top: -135px;
+            left: 30px;
+        }
+
+        p{
+             color: white;
+            position: absolute;
+            top: 35px;
+            left: 32px;
+            text-transform: uppercase; 
+        }
+    }
+    .imgrt:hover{
+          box-shadow: 0px 0px 10px rgb(95, 95, 95);
+    border-radius: 10px;
+    }
+    img:hover{
+        border-radius: 10px;
+    }
